@@ -1,0 +1,6 @@
+{
+  "name":"lambdalytics",
+  "env": {
+    "MONGO_URL": "@lambdalytics-mongo-url"
+  }
+}

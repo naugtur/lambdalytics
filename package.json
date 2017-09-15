@@ -1,0 +1,28 @@
+{
+  "name": "lambdalytics",
+  "version": "1.0.0",
+  "description": "naive analytics implementation with close to no features",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naugtur/lambdalytics.git"
+  },
+  "scripts":{
+    "start":"node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naugtur/lambdalytics/issues"
+  },
+  "homepage": "https://github.com/naugtur/lambdalytics#readme",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongojs": "^2.4.1",
+    "request-ip": "^2.0.2"
+  }
+}
