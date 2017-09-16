@@ -8,6 +8,7 @@ Stores
 ```
 {
   ip,
+  location, //from freegeoip.net
   site,
   time
 }
