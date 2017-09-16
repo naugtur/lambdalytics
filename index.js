@@ -8,7 +8,7 @@ app.use(requestIp.mw())
 
 app.get('/', (req, res) => {
   const ref = req.headers.referer
-  if (true) {
+  if (ref) {
     got(`freegeoip.net/json/${req.clientIp}`)
         .then(({body}) => {
           body = JSON.parse(body)
